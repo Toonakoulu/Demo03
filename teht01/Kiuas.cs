@@ -30,6 +30,14 @@ namespace teht01
         {
             Kosteus -= 15;
         }
+        public void Sammuta()
+        {
+            Paallaolo = false;
+        }
+        public void Kaynnista()
+        {
+            Paallaolo = true;
+        }
 
         // method to display data
         public void PrintData()

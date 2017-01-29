@@ -20,11 +20,12 @@ namespace teht01
             kiuas.PrintData();
             Console.ReadLine();
 
-            // Lisätään lämpötilaa ja kosteutta!
+            // Lisätään lämpötilaa ja kosteutta, samalla sammutetaan kiuas!
             kiuas.LisaaLtila();
             kiuas.LisaaLtila();
             kiuas.LisaaLtila();
             kiuas.LisaaKosteus();
+            kiuas.Sammuta();
 
             // Uusi printtaus
             kiuas.PrintData();

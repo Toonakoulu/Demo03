@@ -24,11 +24,11 @@ namespace teht01
         }
         public void LisaaKosteus()
         {
-            Kosteus = +15;
+            Kosteus += 15;
         }
         public void VahKosteus()
         {
-            Kosteus = -15;
+            Kosteus -= 15;
         }
 
         // method to display data

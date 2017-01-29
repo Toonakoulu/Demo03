@@ -10,6 +10,25 @@ namespace teht01
     {
         static void Main(string[] args)
         {
+            // Pistetään Kiuas toimimaan
+            Kiuas kiuas = new Kiuas();
+            kiuas.Paallaolo = true;
+            kiuas.Ltila = 50;
+            kiuas.Kosteus = 30;
+
+            // Printataan kiukaan data
+            kiuas.PrintData();
+            Console.ReadLine();
+
+            // Lisätään lämpötilaa ja kosteutta!
+            kiuas.LisaaLtila();
+            kiuas.LisaaLtila();
+            kiuas.LisaaLtila();
+            kiuas.LisaaKosteus();
+
+            // Uusi printtaus
+            kiuas.PrintData();
+            Console.ReadLine();
         }
     }
 }
